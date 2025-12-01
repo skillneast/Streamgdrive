@@ -7,7 +7,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # --- CONFIGURATION ---
-BOT_TOKEN = "8459084440:AAHFpH9Q10yJAOXwNq8-UFqbYpQMALtct2Q"  # Apna Token Dalein
+BOT_TOKEN = "8459084440:AAEsBM_62BoU_uZ8iTr4_Ksn4zskOJeqEUI"  # Apna Token Dalein
 RENDER_EXTERNAL_URL = os.environ.get("RENDER_EXTERNAL_URL", "http://localhost:5000")
 
 app = Flask(__name__)
